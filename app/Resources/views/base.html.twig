@@ -185,12 +185,21 @@
                     <a href="{{ path('admin_predator') }}">
                         Predators
                     </a>
+                   <a href="{{ path('admin_frog') }}">
+                        Frog
+                   </a>
                 </li>
             {% else %}
                 <li>
                     <a href="{{ path('fos_user_security_login') }}">
                         {{ 'layout.login'|trans({}, 'FOSUserBundle') }}
                     </a>
+                </li>
+                <li>
+                </a>
+                   <a href="{{ path('admin_frog') }}">
+                        Frog
+                </a>
                 </li>
             {% endif %}
         </ul>
