@@ -9,7 +9,7 @@ Feature: I would like to edit marsupials
     And I go to "/admin/marsupials/"
     Then I should not see "<marsupials>"
     And I follow "Create a new entry"
-    Then I should see "Bears creation"
+    Then I should see "Marsupials creation"
     When I fill in "Name" with "<marsupials>"
     And I fill in "Weight" with "<weight>"
     And I press "Create"
@@ -45,8 +45,8 @@ Feature: I would like to edit marsupials
 
   Examples:
     |old-marsupials |new-marsupials |new-weight|
-    |kangaroo       |N-E-W-KAN      |200       |
-    |opossum        |N-E-W-OPO      |110       |
+    |kangaroo       |N-E-W-K-A-N      |200       |
+    |opossum        |N-E-W-O-P-O      |110       |
 
 
   Scenario Outline: Delete records
@@ -63,8 +63,8 @@ Feature: I would like to edit marsupials
     Then I should not see "<marsupials>"
 
   Examples:
-    |marsupials|
-    |N-E-W-KAN |
-    |N-E-W-OPO |
-    |koala     |
-
+    |marsupials  |
+    |N-E-W-K-A-N |
+    |N-E-W-O-P-O |
+    |koala       |
+    
