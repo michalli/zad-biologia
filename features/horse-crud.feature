@@ -9,7 +9,7 @@ Feature: I would like to edit horses
     And I go to "/admin/horse/"
     Then I should not see "<horse>"
     And I follow "Create a new entry"
-    Then I should see "Cats creation"
+    Then I should see "Horse creation"
     When I fill in "Name" with "<horse>"
     And I fill in "Lifespan" with "<lifespan>"
     And I press "Create"
@@ -20,7 +20,7 @@ Feature: I would like to edit horses
     | horse     | lifespan |
     | pinto     | 27  |
     | hunter    | 24  |
-    | morgan    | 19  |
+ 
 
 
 
@@ -64,5 +64,5 @@ Feature: I would like to edit horses
 
   Examples:
     | horse     |
-    | pinto     |
-    | hunter    |
+    | stallion  |
+    | cob       |
