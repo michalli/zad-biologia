@@ -39,7 +39,7 @@ Feature: I would like to edit antelope
     And I fill in "Weight" with "<new-weight>"
     And I press "Update"
     And I follow "Back to the list"
-    Then I should see "<new-antelope"
+    Then I should see "<new-antelope>"
     And I should see "<new-weight>"
     And I should not see "<old-antelope>"
 
@@ -64,6 +64,6 @@ Feature: I would like to edit antelope
 
   Examples:
     | antelope    |
-    | sable       |
     | nyala       |
+    | roan        |
 
