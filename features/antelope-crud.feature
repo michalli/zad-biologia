@@ -64,6 +64,6 @@ Feature: I would like to edit antelope
 
   Examples:
     | antelope    |
+    | sable       |
     | nyala       |
-    | roan        |
 
