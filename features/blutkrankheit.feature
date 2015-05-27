@@ -36,7 +36,7 @@ Feature: I would like to edit blutkrankheit
     Then I should see "<old-blutkrankheit>"
     When I follow "Edit"
     And I fill in "Name" with "<new-blutkrankheit>"
-    And I fill in "mortality" with "<new-mortality>"
+    And I fill in "Mortality" with "<new-mortality>"
     And I press "Update"
     And I follow "Back to the list"
     Then I should see "<new-blutkrankheit>"
@@ -64,7 +64,7 @@ Feature: I would like to edit blutkrankheit
 
   Examples:
     | blutkrankheit    |
+    | białaczka        |
     | anemia           |
     | czerwienica      |
-    | białaczka        |
 
