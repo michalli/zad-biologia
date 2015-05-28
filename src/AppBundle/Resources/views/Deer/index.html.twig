@@ -15,13 +15,13 @@
         <tbody>
         {% for entity in entities %}
             <tr>
-                <td><a href="{{ path('admin_reptile_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td><a href="{{ path('admin_deer_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td>
-                    <a href="{{ path('admin_reptile_show', { 'id': entity.id }) }}">
+                    <a href="{{ path('admin_deer_show', { 'id': entity.id }) }}">
                         {{ entity.name }}
                     </a>
                 </td>
-                <td>{{ entity.age }}</td>
+                <td>{{ entity.weight }}</td>
                 <td>
                 <ul>
                     <li>

@@ -9,7 +9,7 @@ Feature: I would like to edit deers
     And I go to "/admin/deer/"
     Then I should not see "<deer>"
     And I follow "Create a new entry"
-    Then I should see "Cats creation"
+    Then I should see "Deer creation"
     When I fill in "Name" with "<deer>"
     And I fill in "Weight" with "<weight>"
     And I press "Create"

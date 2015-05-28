@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Deer
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="AppBundle\Entity\DeerRepository")
+ * @ORM\Entity
  */
 class Deer
 {
